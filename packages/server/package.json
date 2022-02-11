@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "LitvE <yevgen.litvinov1980@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/server.js",
+  "directories": {},
+  "files": [],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "dev": "nodemon ./server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.0",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
